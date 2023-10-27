@@ -14,7 +14,7 @@
 
 Exercícios do Sphere Online Judge:
 
-- [EXPEDI](https://www.spoj.com/problems/EXPEDI/)
+- [EXPEDI - Expedition](https://www.spoj.com/problems/EXPEDI/)
 
 Exercícios do LeetCode:
 
