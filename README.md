@@ -1,7 +1,7 @@
-# Exercicios2
+# Exercicios3
 
 **Número da Lista**: 3<br>
-**Conteúdo da Disciplina**: Caminhoneiro, Trocador<br>
+**Conteúdo da Disciplina**: Caminhoneiro, Trocador, Scheduling to Minimize Lateness<br>
 
 ## Alunos
 
@@ -12,13 +12,14 @@
 
 ## Sobre
 
-Exercícios do Sphere Online Judge:
+Exercícios resolvidos no Leetcode e no Sphere Online Judge:
 
 | Exercício | Juiz Online | Autor da Resolução |
 |-----------|-------------|:------------------:|
 | [EXPEDI - Expedition](https://www.spoj.com/problems/EXPEDI/) | [SPOJ](https://www.spoj.com/) | [Arthur](https://github.com/arthurmlv) |
-| [2136 - Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/) | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
 | [2178 - Maximum Split of Positive Even Integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers) | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv) |
+| [1402 - Reducing Dishes](https://leetcode.com/problems/reducing-dishes/)| [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv) |
+| [2136 - Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/) | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
 
 ## Screenshots
 
@@ -38,6 +39,13 @@ O exercício é resolvido por meio de uma adaptação do algoritmo do trocador e
 
 ![Imagem MAXSPLIT](assets/enunciado2178.png)
 ![Imagem MAXSPLIT1](assets/2178.png)
+
+### 1402 - Reducing Dishes (Hard)
+
+O algoritmo mais similar à resolução é o Scheduling to Minimize Lateness, dado que qualquer troca de valor resulta em perda de satisfação. A solução ambiciosa, que escolhe os maiores valores enquanto a soma deles for positiva, possui sempre o maior valor ofertado para a satisfação. Dado que o maior valor sendo multiplicado pelo maior índice garante a maior satisfação, desde que a soma de todos seja positiva. Para o cálculo, o vetor é ordenado de forma decrescente por meio do std::sort do C++.
+
+![Imagem DISHES1](assets/enunciado1402.png)
+![Imagem DISHES](assets/1402.png)
 
 ## Instalação
 
