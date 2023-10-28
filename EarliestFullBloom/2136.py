@@ -1,22 +1,19 @@
 class Solution:
     def earliestFullBloom(self, plantTime: List[int], growTime: List[int]) -> int:
 
-        n = len(plantTime) # Pegando a quantidade de plantas.
-
         tempoTotal = 0
-        temposCrescimento = 0
+        temposPlantio = 0
 
-        plantas= {} # Dicionario para guardar a relacao de tempo de plantio e crescimento.
-        # Prenchedo o dicionario.
-        for i in range(n):
-            plantas[f'{plantTime[i]}'] = growTime[i]
+        plantas = tuple(zip(plantTime, growTime)) # Guardando o par tempo de plantio e crescimento em numa tupla.
 
-        # Ordenando o dicionario em ordem decresente de tempo de crescimento.
-        dict(sorted(plantas.items(), key=lambda x:x[1], reverse=True))
+        # Interval Scheduling Modificado
 
-        for planta in plantas.keys():
-            temposCrescimento += int(planta)
-            tempoTotal = max(tempoTotal, temposCrescimento+planta+int(plantas[f'{planta}']))
+        # Ordenando em ordem decresente de tempo de crescimento (tempo de termino).
+        plantas = sorted([(plantio, crescimento) for (plantio, crescimento) in plantas], key=lambda x:x[1], reverse=True)
+
+        # Pegando o par de tempos de crescimento e de plantio.
+        for plantio, crescimento in plantas:
+            temposPlantio += plantio
+            tempoTotal = max(tempoTotal, temposPlantio+crescimento)
 
         return tempoTotal
-
