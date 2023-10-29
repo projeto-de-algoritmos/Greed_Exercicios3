@@ -1,7 +1,7 @@
+# Tipo de problema: Agendamento para minimizar o atraso.
+
 class Solution:
     def earliestFullBloom(self, plantTime: List[int], growTime: List[int]) -> int:
-        # Tipo de problema: Agendamento para minimizar o atraso.
-
         # Declarando variaveis auxiliares.
         tempoTotal = 0
         temposPlantio = 0

@@ -1,6 +1,6 @@
-def earliestFullBloom(plantTime: list[int], growTime: list[int]) -> int:
+# Tipo de problema: Agendamento para minimizar o atraso.
 
-    # Tipo de problema: Agendamento para minimizar o atraso.
+def earliestFullBloom(plantTime: list[int], growTime: list[int]) -> int:
 
     # Declarando variaveis auxiliares.
     tempoTotal = 0
