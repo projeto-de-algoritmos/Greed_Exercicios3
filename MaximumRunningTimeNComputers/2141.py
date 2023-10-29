@@ -20,3 +20,4 @@ class Solution:
             media = (tempoBaterias // n)        # Atualiza a media de tempo gasto pelos computadores
 
         return (tempoBaterias // n)
+    

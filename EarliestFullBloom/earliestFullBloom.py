@@ -19,11 +19,14 @@ def earliestFullBloom(plantTime: list[int], growTime: list[int]) -> int:
 
 
 print('Caso de Teste 1 - Input: plantTime = [1,4,3], growTime = [2,3,1]')
-print(f'Resultado: {earliestFullBloom([1,4,3], [2,3,1])}')
+print('Resultado Esperado: 9')
+print(f'Resultado Calculado: {earliestFullBloom([1,4,3], [2,3,1])}')
 print('')
 print('Caso de Teste 2 - Input: plantTime = [1,2,3,2], growTime = [2,1,2,1]')
-print(f'Resultado: {earliestFullBloom([1,2,3,2], [2,1,2,1])}')
+print('Resultado Esperado: 9')
+print(f'Resultado Calculado: {earliestFullBloom([1,2,3,2], [2,1,2,1])}')
 print('')
 print('Caso de Teste 3 - Input: plantTime = [1], growTime = [1]')
-print(f'Resultado: {earliestFullBloom([1], [1])}')
+print('Resultado Esperado: 2')
+print(f'Resultado Calculado: {earliestFullBloom([1], [1])}')
 print('')

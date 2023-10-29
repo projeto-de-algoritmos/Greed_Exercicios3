@@ -1,7 +1,7 @@
 # Exercicios3
 
 **Número da Lista**: 3<br>
-**Conteúdo da Disciplina**: Caminhoneiro, Trocador, Scheduling to Minimize Lateness<br>
+**Conteúdo da Disciplina**: Caminhoneiro, Trocador, Scheduling to Minimize Lateness, Interval Scheduling<br>
 
 ## Alunos
 
@@ -49,6 +49,27 @@ O algoritmo mais similar à resolução é o Scheduling to Minimize Lateness, da
 ![Imagem DISHES1](assets/enunciado1402.png)
 ![Imagem DISHES](assets/1402.png)
 
+### 2136 - Earliest Possible Day of Full Bloom (Hard)
+
+Utiliza a logica do algoritmo _scheduling to minimize lateness_ para a resolução.
+
+![Imagem do enunciado do problema 2136 Earliest Possible Day of Full Bloom](assets/2136/enunciado2136.png)
+![Imagem da submissão aceita do problema 2136](assets/2136/2136.png)
+
+### 1383 - Maximum Performance of a Team (Hard)
+
+Utiliza a logica do algoritmo _scheduling to minimize lateness_ para a resolução.
+
+![Imagem do enunciado do problema 1383 Maximum Performance of a Team](assets/1383/enunciado1383.png)
+![Imagem da submissão aceita do problema 1383](assets/1383/1383.png)
+
+### 2141 - Maximum Running Time of N Computers (Hard)
+
+Utiliza a logica do algoritmo _scheduling to minimize lateness_ para a resolução.
+
+![Imagem do enunciado do problema 2141 Maximum Running Time of N Computers](assets/2141/enunciado2141.png)
+![Imagem da submissão aceita do problema 1383](assets/2141/2141.png)
+
 ## Instalação
 
 **Linguagens**: C++ e Python<br>
@@ -61,7 +82,7 @@ Já para rodar os arquivos em Python, pode ser utilizado o interpretador online 
 
 Para os exercícios em C++, compile o código utilizando `g++ -o prog arquivo.cpp` e execute-o utilizando `./prog`, por fim, digite o input no terminal. Também pode ser utilizado o comando `./prog < entrada.txt` caso exista algum caso de teste válido no arquivo de texto. Os links para os problemas resolvidos estão na seção "Sobre", onde podem ser enviados para verificar se foram aceitos.
 
-Para os exercícios em Python, basta digitar `python nome-do-arquivo.py` no terminal de preferência. Da mesma forma, a solução pode ser enviada na própria página do problema.
+Para os exercícios em Python, basta digitar `python nome-do-arquivo.py` no terminal de preferência para rodar o código com os casos de testes dados como exemplo. Da mesma forma, a solução pode ser enviada na própria página do problema.
 
 ## Vídeo
 
