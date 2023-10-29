@@ -14,12 +14,14 @@
 
 Exercícios resolvidos no Leetcode e no Sphere Online Judge:
 
-| Exercício | Juiz Online | Autor da Resolução |
-|-----------|-------------|:------------------:|
-| [EXPEDI - Expedition](https://www.spoj.com/problems/EXPEDI/) | [SPOJ](https://www.spoj.com/) | [Arthur](https://github.com/arthurmlv) |
-| [2178 - Maximum Split of Positive Even Integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers) | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv) |
-| [1402 - Reducing Dishes](https://leetcode.com/problems/reducing-dishes/)| [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv) |
-| [2136 - Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/) | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
+| Exercício                                                                                                               | Juiz Online                       |           Autor da Resolução            |
+| ----------------------------------------------------------------------------------------------------------------------- | --------------------------------- | :-------------------------------------: |
+| [EXPEDI - Expedition](https://www.spoj.com/problems/EXPEDI/)                                                            | [SPOJ](https://www.spoj.com/)     | [Arthur](https://github.com/arthurmlv)  |
+| [2178 - Maximum Split of Positive Even Integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers) | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
+| [1402 - Reducing Dishes](https://leetcode.com/problems/reducing-dishes/)                                                | [Leetcode](https://leetcode.com/) | [Arthur](https://github.com/arthurmlv)  |
+| [2136 - Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/)        | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
+| [1383. Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)                     | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
+| [2141. Maximum Running Time of N Computers](https://leetcode.com/problems/maximum-running-time-of-n-computers/)         | [Leetcode](https://leetcode.com/) | [Matheus](https://github.com/mathonaut) |
 
 ## Screenshots
 
