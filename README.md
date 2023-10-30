@@ -51,24 +51,24 @@ O algoritmo mais similar à resolução é o Scheduling to Minimize Lateness, da
 
 ### 2136 - Earliest Possible Day of Full Bloom (Hard)
 
-Utiliza a logica do algoritmo _scheduling to minimize lateness_ para a resolução.
+Utiliza a lógica do algoritmo scheduling to minimize lateness para a resolução. O problema consiste em determinar em quantos dias um conjunto de plantas dadas germinam e florescem. Para a resolução, os dias totais de uma planta para a sua germinação foram tratados como sendo as unidades de processamento e o dia na qual ela floresce como sendo o prazo final. Foi utilizado também uma tupla que guarda os pares tempo de germinação e de florescimento para cada planta em ordem decrescente em relação ao crescimento. O tempo total foi calculado através de um loop que percorre cada planta na tupla e que comparando o tempo de germinação acumulado mais o do crescimento da planta, com o tempo total acumulado. Vale notar que só se pode trabalhar na germinação de uma única semente por dia, já o crescimento é livre e pode acontecer em paralelo a atividade de germinação, portanto, deve-se minimizar o atraso em relação ao crescimento das plantas.
 
 ![Imagem do enunciado do problema 2136 Earliest Possible Day of Full Bloom](assets/2136/enunciado2136.png)
 ![Imagem da submissão aceita do problema 2136](assets/2136/2136.png)
 
 ### 1383 - Maximum Performance of a Team (Hard)
 
-Utiliza a logica do algoritmo _scheduling to minimize lateness_ para a resolução.
+O problema foi resolvido com a ajuda do algoritmo scheduling to minimize lateness modificado. Ele consiste em escolher k engenheiros e retornar o time com a performance máxima. A performance é calculada pela escolha da menor eficiência dos k engenheiros multiplicada pela soma das velocidades dos engenheiros, portanto, para resolver o problema é necessário checar as eficiências dos engenheiros em ordem decrescente, escolhendo sempre a menor entre eles, calcular a performance (uma heap de mínimo para guardar as velocidades dos engenheiros) e escolhendo a maior performance entre os engenheiros.
 
 ![Imagem do enunciado do problema 1383 Maximum Performance of a Team](assets/1383/enunciado1383.png)
 ![Imagem da submissão aceita do problema 1383](assets/1383/1383.png)
 
 ### 2141 - Maximum Running Time of N Computers (Hard)
 
-Utiliza a logica do algoritmo _scheduling to minimize lateness_ para a resolução.
+A ideia do problema é distribuir a carga de baterias entre n computadores no intuito de mantê-los rodando simultaneamente até um tempo máximo onde um ou todos os computadores desligam. Uma versão modificada do algoritmo de agendamento de intervalo foi utilizada na resolução, nela, a tarefa é encarada como sendo o uso das baterias pelos computadores e o objetivo é encontrar o subconjunto de tarefas no qual o tempo total é máximo. Em relação a solução, foi realizado uma ordenação crescente das baterias e um loop que roda até que a maior bateria que sempre vai sobrar é maior que a média entre as cargas das baterias (sem a maior) com o número de computadores que não utilizam a maior.
 
 ![Imagem do enunciado do problema 2141 Maximum Running Time of N Computers](assets/2141/enunciado2141.png)
-![Imagem da submissão aceita do problema 1383](assets/2141/2141.png)
+![Imagem da submissão aceita do problema 2141](assets/2141/2141.png)
 
 ## Instalação
 

@@ -21,7 +21,7 @@ class Solution:
         for efi, vel in engenheiros:
             # Verificando se a qtd de engenheiro eh maior que k
             if len(minheap) == k:
-                aux = heapq.heappop(minheap)                                 # Retirando o engenheiro da heap
+                aux = heapq.heappop(minheap)                                # Retirando o engenheiro da heap
                 velocidadeTotal -= aux                                      # Retirando a vel do engenheiro da velocidade total
             velocidadeTotal += vel                                          # Adicionando a velocidade do engenheiro na velocidade total
             heapq.heappush(minheap, vel)                                    # Adicionando o engenheiro (velocidade dele) na heap
