@@ -86,6 +86,6 @@ Para os exercícios em Python, basta digitar `python nome-do-arquivo.py` no term
 
 ## Vídeo
 
-Para acessar o vídeo explicativo sobre os exercícios, [clique aqui](https://www.youtube.com/embed/).
+Para acessar o vídeo explicativo sobre os exercícios, [clique aqui](https://www.youtube.com/embed/JR4WfVFuTrs).
 
-Para baixar o vídeo, [clique aqui](apresentacao.mp4).
+Para baixar o vídeo, [clique aqui](apresentacao.7z). O arquivo está comprimido.
